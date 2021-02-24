@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+button {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+#app {
+  width: 100vw;
+  height: 100vh;
+  background-color: #00203f;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+}
+
+.container {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding-top: 20px;
+}
+
+#displayPassword {
+  border: 2px solid #adefd1;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+hr {
+  width: 50%;
+  margin: 20px;
+}
+
+.passwordForm > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.passwordForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 20px;
+  height: 50%;
+  width: 40%;
+}
+
+.btn {
+  background-color: #0475ff;
+  border: none;
+  border-radius: 2px;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background-color: #adefd1;
+  color: black;
+}
+
+#lengthNumber {
+  height: 22px;
+  font-size: 18px;
+}
